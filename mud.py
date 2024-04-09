@@ -5,7 +5,7 @@ from classes import heartbeat
 from engine.login import login
 from engine.start_mud import StartMud
 
-HOST = "127.0.0.1"
+HOST = ""
 PORT = 1234
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
